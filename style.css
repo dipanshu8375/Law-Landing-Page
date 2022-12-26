@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 60vh;
+    background-color: #2c271c;
+}
+
+/* Navbar Section */
+
+.navbar{
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+    height: 20%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo Part */
+
+.white_logo{
+    width: 100px;
+}
+.nav_element{
+    display: flex;
+    list-style: none;
+    color: #696552;
+    width: 650px;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav_content{
+    display: flex;
+}
+.nav_items{
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav_items_last{
+    border: 2px solid rgb(136, 136, 64);
+    padding: 8px 20px 8px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(136, 136, 64);
+}
+ul li:first-child{
+    color: white;
+}
+
+/* Hero Section */
+
+.hero{
+    width: 89%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.left_part h1{
+    font-size: 70px;
+    color: white;
+}
+.right_part p{
+    font-size: 20px;
+    color: #8d876b;
+}
+
+/* Image section */
+
+
+.last_img{
+   object-fit:fill;
+   width: 100%;
+   height: 40vh;
+}
